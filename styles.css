@@ -204,3 +204,17 @@ main {
       z-index: 99999999;
 
     }
+
+
+    .logo p {
+      font-family: 'Audiowide', cursive;
+      font-size: 2rem;
+      color: #ff0066;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+    
+    .logo p:hover {
+      color: #ff3300;
+      text-shadow: 0 0 10px #ff3300, 0 0 20px #ff6600, 0 0 30px #ff9933;
+    }
+    
