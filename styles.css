@@ -1,9 +1,11 @@
-  body {
-    margin: 0;
-    font-family: 'Audiowide', cursive;
-    background-color: #333333;
-    color: #F7FFF7;
-    cursor: none;
+body {
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+  background-color: #121212;
+  /* Preto Suave */
+  color: #E0E0E0;
+  /* Cinza Claro */
+  cursor: none;
 }
 
 * {
@@ -11,23 +13,23 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 64px;
-    background-color: #444444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 64px;
+  background-color: #333333;
+  /* Preto Médio */
 }
 
 .intro {
-    margin-left: -1000px;
-    margin-top: -200px;
-    justify-content: center;
+  margin-left: -1000px;
+  margin-top: -200px;
+  justify-content: center;
 }
 
 .logo p {
   font-size: 40px;
   margin: 0;
-  
 }
 
 nav ul {
@@ -44,7 +46,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #F7FFF7;
+  color: #BB86FC;
+  /* Roxo Neon */
   text-decoration: none;
   font-size: 16px;
   display: block;
@@ -58,33 +61,32 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-  color: #7D8CC4;
+  color: #03DAC5;
+  /* Ciano */
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
 }
 
 .intro h1 {
-    font-size: 48px;
-    margin-bottom: -10px;
+  font-size: 48px;
+  margin-bottom: -10px;
 }
 
 .intro p {
   font-size: 16px;
   margin-bottom: 15px;
   text-transform: uppercase;
-  letter-spacing: 4px; 
-
-
+  letter-spacing: 4px;
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid;
-  animation: typing 2s steps(50) forwards, blink 0.5s step-end infinite alternate ;
+  animation: typing 2s steps(50) forwards, blink 0.5s step-end infinite alternate;
 }
 
 @keyframes typing {
@@ -104,132 +106,138 @@ main {
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .social-icons img {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .card {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 25px;
-    gap: 20px;
-  }
-  
-  .socialContainer {
-    width: 52px;
-    height: 52px;
-    background-color: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition-duration: 0.3s;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 25px;
+  gap: 20px;
+}
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: #333333;
+  /* Preto Médio */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.containerOne:hover {
+  background-color: #FF0266;
+  /* Rosa Forte */
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.containerTwo:hover {
+  background-color: #03DAC5;
+  /* Ciano */
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.containerThree:hover {
+  background-color: #BB86FC;
+  /* Roxo Neon */
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.containerFour:hover {
+  background-color: #333333;
+  /* Preto Médio */
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: #E0E0E0;
+  /* Cinza Claro */
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
   }
 
-  .containerOne:hover {
-    background-color: #d62976;
-    transition-duration: 0.3s;
-    transform: scale(1.5);
-    border-radius: 15px;
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
 
-  .containerTwo:hover {
-    background-color: #00acee;
-    transition-duration: 0.3s;
-    transform: scale(1.5);
-    border-radius: 15px;
-  }
+.circle {
+  height: 4px;
+  width: 4px;
+  border-radius: 24px;
+  background-color: #BB86FC;
+  /* Roxo Neon */
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
 
-  .containerThree:hover {
-    background-color: #005887;
-    transition-duration: 0.3s;
-    transform: scale(1.5);
-    border-radius: 15px;
-  }
-
-  .containerFour:hover {
-    background-color: #000000;
-    transition-duration: 0.3s;
-    transform: scale(1.5);
-    border-radius: 15px;
-  }
-  
-  .socialContainer:active {
-    transform: scale(0.9);
-    transition-duration: 0.3s;
-  }
-  
-  .socialSvg {
-    width: 17px;
-  }
-  
-  .socialSvg path {
-    fill: rgb(255, 255, 255);
-  }
-  
-  .socialContainer:hover .socialSvg {
-    animation: slide-in-top 0.3s both;
-  }
-  
-  @keyframes slide-in-top {
-    0% {
-      transform: translateY(50px);
-      opacity: 0;
-    }
-  
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-    .circle {
-      height: 4px;
-      width: 4px;
-      border-radius: 24px;
-      background-color: black;
-      position: fixed;
-      top: 0;
-      left: 0;
-      pointer-events: none;
-      z-index: 99999999;
-
-    }
+}
 
 
-    .logo p {
-      position: relative;
-      font-family: 'Audiowide', cursive;
-      font-size: 2rem;
-      color: #fff;
-    }
-    
-    .logo p::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      pointer-events: none;
-      background: radial-gradient(circle, rgba(255,255,255,0.5) 10%, transparent 10%);
-      background-size: 10px 10px;
-      background-repeat: no-repeat;
-      background-position: center;
-      transition: opacity 0.3s ease;
-      opacity: 0;
-    }
-    
-    .logo p:hover::after {
-      opacity: 1;
-    }
-      
+.logo p {
+  position: relative;
+  font-family: 'Audiowide', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.logo p::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, transparent 10%);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.logo p:hover::after {
+  opacity: 1;
+}
