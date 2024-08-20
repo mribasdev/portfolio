@@ -1,10 +1,10 @@
 body {
   margin: 0;
   font-family: 'Audiowide', cursive;
-  background-color: #FFFFFF;
-  /* Branco */
-  color: #2C3E50;
-  /* Azul Escuro */
+  background-color: #121212;
+  /* Preto Suave */
+  color: #E0E0E0;
+  /* Cinza Claro */
   cursor: none;
 }
 
@@ -17,8 +17,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 64px;
-  background-color: #3498DB;
-  /* Azul Claro */
+  background-color: #333333;
+  /* Preto Médio */
 }
 
 .intro {
@@ -46,8 +46,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #2C3E50;
-  /* Azul Escuro */
+  color: #BB86FC;
+  /* Roxo Neon */
   text-decoration: none;
   font-size: 16px;
   display: block;
@@ -61,8 +61,8 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-  color: #2ECC71;
-  /* Verde Claro */
+  color: #03DAC5;
+  /* Ciano */
 }
 
 main {
@@ -129,8 +129,8 @@ main {
 .socialContainer {
   width: 52px;
   height: 52px;
-  background-color: #3498DB;
-  /* Azul Claro */
+  background-color: #333333;
+  /* Preto Médio */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,32 +139,32 @@ main {
 }
 
 .containerOne:hover {
-  background-color: #E74C3C;
-  /* Vermelho Coral */
+  background-color: #FF0266;
+  /* Rosa Forte */
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
 }
 
 .containerTwo:hover {
-  background-color: #2ECC71;
-  /* Verde Claro */
+  background-color: #03DAC5;
+  /* Ciano */
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
 }
 
 .containerThree:hover {
-  background-color: #3498DB;
-  /* Azul Claro */
+  background-color: #BB86FC;
+  /* Roxo Neon */
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
 }
 
 .containerFour:hover {
-  background-color: #2C3E50;
-  /* Azul Escuro */
+  background-color: #333333;
+  /* Preto Médio */
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
@@ -180,8 +180,8 @@ main {
 }
 
 .socialSvg path {
-  fill: #FFFFFF;
-  /* Branco */
+  fill: #E0E0E0;
+  /* Cinza Claro */
 }
 
 .socialContainer:hover .socialSvg {
@@ -204,8 +204,8 @@ main {
   height: 4px;
   width: 4px;
   border-radius: 24px;
-  background-color: #E74C3C;
-  /* Vermelho Coral */
+  background-color: #BB86FC;
+  /* Roxo Neon */
   position: fixed;
   top: 0;
   left: 0;
@@ -219,8 +219,7 @@ main {
   position: relative;
   font-family: 'Audiowide', cursive;
   font-size: 2rem;
-  color: #2C3E50;
-  /* Azul Escuro */
+  color: #fff;
 }
 
 .logo p::after {
