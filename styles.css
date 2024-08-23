@@ -15,22 +15,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Esconde a scrollbar no Chrome, Edge e Safari */
-::-webkit-scrollbar {
-  display: none;
-}
-
-/* Esconde a scrollbar no Firefox */
-html {
-  scrollbar-width: none;
-  /* Esconde completamente */
-}
-
-/* Para navegadores antigos (Internet Explorer) */
-body {
-  -ms-overflow-style: none;
-  /* Esconde scrollbar */
-}
 
 main {
   display: flex;
