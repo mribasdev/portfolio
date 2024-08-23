@@ -1,7 +1,4 @@
                 <main>          
-              <section class="1"> 
-
-
                   <div class="social-icons">
         <div class="card">
           <a href="https://www.instagram.com/akaribas/" target="_blank" class="socialContainer containerOne">
@@ -41,12 +38,6 @@
         </div>
         
                     </div>
-                  </section>
-
-           <section class="2"></section>
-           <section class="3"></section>
-           <section class="4"></section>
-           <section class="5"></section>
            
             </main>
 
