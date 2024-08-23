@@ -244,7 +244,12 @@ section{
 }
 
 
-body {
-  margin-top: 80px;
-  /* Ajuste conforme a altura do header */
+header {
+  z-index: 10;
+  /* Certifique-se de que este valor é menor que o das sections, se necessário */
+}
+
+section {
+  z-index: 1;
+  position: relative;
 }
