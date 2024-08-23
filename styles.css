@@ -49,16 +49,33 @@ section{
 }
 
 
+/* Remove scrollbar para todo o site */
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+}
 
+/* Para navegadores baseados em Webkit (Chrome, Safari) */
+html,
+body::-webkit-scrollbar {
+  display: none;
+}
 
+/* Para navegadores Firefox */
+html,
+body {
+  scrollbar-width: none;
+  /* Firefox */
+}
 
-
-
-
-
-
-
-
+/* Para navegadores Edge, IE */
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE e Edge */
+}
 
 .social-icons {
   display: flex;
