@@ -15,6 +15,15 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  overflow: auto;
+  /* Mantém a rolagem */
+  overflow-x: hidden;
+  /* Oculta apenas a barra de rolagem horizontal */
+  overflow-y: hidden;
+  /* Oculta apenas a barra de rolagem vertical */
+}
+
 main {
   display: flex;
   justify-content: center;
