@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const sections = document.querySelectorAll('section'); // Assumindo que suas seções são elementos <section>
+    const sections = document.querySelectorAll('section');
     const dots = document.querySelectorAll('.scroll-dot');
   
     window.addEventListener('scroll', function () {
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const sectionHeight = section.clientHeight;
   
         if (pageYOffset >= sectionTop - sectionHeight / 3) {
-          current = section.getAttribute('id') || index + 1; // Usando o ID ou o índice da seção como identificador
+          current = section.getAttribute('id') || index + 1;
         }
       });
   
