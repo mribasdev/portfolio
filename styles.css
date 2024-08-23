@@ -19,6 +19,23 @@ main {
   text-align: center;
 }
 
+
+.page1  {
+    background-color: #ffffff ;
+}
+.page2{
+  background-color: #e6e6e6;
+}
+.page3 {
+  background-color: #ffffff;
+}
+.page4 {
+  background-color: #e6e6e6;
+}
+.page5 {
+  background-color: #ffffff;
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
