@@ -36,6 +36,25 @@ main {
   background-color: #ffffff;
 }
 
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .social-icons {
   display: flex;
   justify-content: center;
