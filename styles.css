@@ -242,3 +242,9 @@ nav ul li a:hover {
 section{
   min-height: 100vh;
 }
+
+
+body {
+  margin-top: 80px;
+  /* Ajuste conforme a altura do header */
+}
