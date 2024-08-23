@@ -37,6 +37,10 @@ main {
 }
 
 
+.interface{
+  height: 100vh;
+}
+
 section{
   display: flex;
   align-items: center;
