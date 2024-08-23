@@ -242,3 +242,8 @@ nav ul li a:hover {
 section{
   min-height: 100vh;
 }
+
+section.HOME {
+  padding-top: 100px;
+  /* Ajuste o valor conforme a altura do seu header */
+}
