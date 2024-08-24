@@ -220,9 +220,6 @@ nav ul {
 }
 
 
-.logo p {
-  margin: 0;
-}
 
 nav ul {
   list-style: none;
@@ -301,23 +298,6 @@ nav ul li a:hover {
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid;
-  animation: typing 2s steps(50) forwards, blink 0.5s step-end infinite alternate;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
 }
 
 .intro {
