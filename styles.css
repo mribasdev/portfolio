@@ -251,7 +251,7 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-  color: #8f53ff;
+  color: #00bdf7;
 
 }
 
@@ -278,12 +278,9 @@ nav ul li a:hover {
 .scroll-dot.active {
   width: 20px;
   height: 20px;
-  border: 2px solid #8f53ff;
-  background-color: #8f53ff;
+  border: 2px solid #00bdf7;
+  background-color: #00bdf7;
 }
-
-
-
 
 .intro h1 {
   font-size: 48px;
@@ -295,9 +292,6 @@ nav ul li a:hover {
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 4px solid;
 }
 
 .intro {
