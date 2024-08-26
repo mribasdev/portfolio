@@ -282,6 +282,7 @@ nav ul li a:hover {
 .intro h1 {
   font-size: 48px;
   margin-bottom: -10px;
+  color: #000000;
 }
 
 .intro p {
@@ -296,4 +297,5 @@ nav ul li a:hover {
   margin-left: 200px;
   margin-top: -200px;
   justify-content: center;
+
 }
