@@ -306,7 +306,8 @@ nav ul li a:hover {
   margin-left: 200px;
   margin-top: -200px;
   justify-content: center;
-  position: absolute;
+  display: flex;
+  align-items: center;
 
 }
 
