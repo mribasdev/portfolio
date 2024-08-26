@@ -9,13 +9,10 @@ html{
   scroll-behavior: smooth;
 }
 
-html{
-  font-family: 'Audiowide';
-}
-
 body {
   margin: 0;
   color: #E0E0E0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Esconde a scrollbar no Chrome, Edge e Safari */
