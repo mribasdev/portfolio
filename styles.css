@@ -325,4 +325,9 @@ nav ul li a:hover {
   text-align: left; /* Alinha o texto à esquerda */
 }
 
-
+.social-icons {
+  position: absolute;
+  bottom: 0; /* Alinha a div ao fundo */
+  right: 0; /* Alinha a div à direita */
+  transform: scale(1.5); /* Aumenta o tamanho de todos os elementos dentro da div, se necessário */
+}
