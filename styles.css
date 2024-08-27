@@ -269,13 +269,13 @@ nav ul li a:hover {
 }
 
 .mobile-menu div {
+  display: flex;
   width: 32px;
   height: 2px;
   background: #000000;
   margin: 8px;
   transition: 0.3s;
-  right: 0;
-  position: absolute;
+  justify-content: space-between;
 }
 
 @media (max-width: 999px) {
