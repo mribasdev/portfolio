@@ -190,6 +190,7 @@ header {
   position: fixed;
   width: 100%;
   transition: .5s;
+  z-index: 1000;
 }
 
 
