@@ -274,6 +274,7 @@ nav ul li a:hover {
   background: #000000;
   margin: 8px;
   transition: 0.3s;
+  right: 0;
 }
 
 @media (max-width: 999px) {
