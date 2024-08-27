@@ -345,3 +345,14 @@ nav ul li a:hover {
 .mobile-menu{
   display: none;
 }
+
+@media (max-width: 999px) {
+  .header {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background:#f6f6f6;
+  }
+}
