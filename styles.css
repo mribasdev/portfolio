@@ -284,6 +284,7 @@ nav ul li a:hover {
   font-size: 85px;
   margin-bottom: -40px;
   color: #000000;
+  font-family: 'Audiowide', sans-serif;
 
 }
 
@@ -292,6 +293,7 @@ nav ul li a:hover {
   font-size: 120px;
   margin-bottom: 5px;
   color: #000000;
+  font-family: 'Audiowide', sans-serif;
 }
 
 .intro p {
