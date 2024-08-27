@@ -292,7 +292,7 @@ nav ul li a:hover {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 30vw;
+    width: 0vw;
     height: 92vh;
     background: #f6f6f6;
     flex-direction: column;
