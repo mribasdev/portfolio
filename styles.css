@@ -309,6 +309,15 @@ nav ul li a:hover {
   .mobile-menu {
     display: block;
   }
+  .scroll-dot{
+    visibility: none;
+  }
+  .scroll-dot.active{
+    visibility: none;
+  }
+  .scrollbar{
+    visibility: none;
+  }
 }
 
 .nav-list.active {
