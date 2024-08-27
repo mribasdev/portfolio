@@ -149,8 +149,8 @@ section{
 
 
 .circle {
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
   border-radius: 24px;
   background-color: #BB86FC;
   position: fixed;
@@ -322,12 +322,12 @@ nav ul li a:hover {
 .intro p,
 .intro h1,
 .intro h2 {
-  text-align: left; /* Alinha o texto à esquerda */
+  text-align: left;
 }
 
 .card {
   position: absolute;
-  bottom: 10; /* Alinha a div ao fundo */
-  right: 0; /* Alinha a div à direita */
-  transform: scale(1.5); /* Aumenta o tamanho de todos os elementos dentro da div, se necessário */
+  bottom: 10;
+  right: 0;
+  transform: scale(1.5);
 }
