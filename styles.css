@@ -195,7 +195,6 @@ header {
 header .mobile-menu{
   position: absolute;
   right: 0;
-  margin-left:10px;
 }
 
 header.rolagem{
