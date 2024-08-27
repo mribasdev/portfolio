@@ -334,25 +334,3 @@ nav ul li a:hover {
   right: 0;
   transform: scale(1.5);
 }
-
-.mobile-menu div{
-  width: 32px;
-  height: 2px;
-  background:#000000;
-  margin: 8px;
-}
-
-.mobile-menu{
-  display: none;
-}
-
-@media (max-width: 999px) {
-  .header {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background:#f6f6f6;
-  }
-}
