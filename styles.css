@@ -341,3 +341,7 @@ nav ul li a:hover {
   background:#000000;
   margin: 8px;
 }
+
+.mobile-menu{
+  display: none;
+}
