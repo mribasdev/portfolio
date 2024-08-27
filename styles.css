@@ -327,8 +327,7 @@ nav ul li a:hover {
 
 .card {
   position: absolute;
-  bottom: 0; /* Alinha a div ao fundo */
+  bottom: 10; /* Alinha a div ao fundo */
   right: 0; /* Alinha a div à direita */
-  top: 10;
   transform: scale(1.5); /* Aumenta o tamanho de todos os elementos dentro da div, se necessário */
 }
