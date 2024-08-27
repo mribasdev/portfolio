@@ -310,13 +310,13 @@ nav ul li a:hover {
     display: block;
   }
   .scroll-dot{
-    visibility: none;
+    visibility:hidden;
   }
   .scroll-dot.active{
-    visibility: none;
+    visibility:hidden;
   }
   .scrollbar{
-    visibility: none;
+    visibility:hidden;
   }
 }
 
