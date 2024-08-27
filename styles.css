@@ -1,3 +1,4 @@
+/* Reset e padrão global */
 * {
   cursor: none;
   margin: 0;
@@ -12,23 +13,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Esconde a scrollbar no Chrome, Edge e Safari */
+/* Scrollbars */
 ::-webkit-scrollbar {
-  display: none;
+  display: none; /* Chrome, Edge, Safari */
 }
 
-/* Esconde a scrollbar no Firefox */
 html {
-  scrollbar-width: none;
-  /* Esconde completamente */
+  scrollbar-width: none; /* Firefox */
 }
 
-/* Para navegadores antigos (Internet Explorer) */
 body {
-  -ms-overflow-style: none;
-  /* Esconde scrollbar */
+  -ms-overflow-style: none; /* Internet Explorer */
 }
 
+/* Layout e estrutura */
 main {
   display: flex;
   align-items: center;
@@ -36,151 +34,25 @@ main {
   text-align: center;
 }
 
-
-#page1  {
-    background-color: #ffffff ;
-}
-#page2{
-  background-color: #ffffff;
-}
-#page3 {
-  background-color: #ffffff;
-}
-#page4 {
-  background-color: #ffffff;
-}
-#page5 {
-  background-color: #ffffff;
-}
-
-
-.interface{
-  height: 100vh;
-}
-
-section{
+.interface, section {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.social-icons img {
-  width: 32px;
-  height: 32px;
-}
-
-.socialContainer {
-  width: 52px;
-  height: 52px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition-duration: 0.3s;
-}
-
-.containerOne:hover {
-  background-color: #d62976;
-  transition-duration: 0.3s;
-  transform: scale(1.5);
-  border-radius: 15px;
-}
-/* twitter*/
-.containerTwo:hover {
-  background-color: #000000;
-  transition-duration: 0.3s;
-  transform: scale(1.5);
-  border-radius: 15px;
-}
-/* linkdin*/
-.containerThree:hover {
-  background-color: #0072b1;
-  transition-duration: 0.3s;
-  transform: scale(1.5);
-  border-radius: 15px;
-}
-
-.socialContainer:hover .socialSvg path {
-  fill: #ffffff;
-}
-
-.containerFour:hover {
-  background-color: #333333;
-  transform: scale(1.5);
-  border-radius: 15px;
-}
-
-.socialContainer:active {
-  transform: scale(0.9);
-}
-
-.socialSvg {
-  width: 17px;
-}
-
-.socialSvg path {
-  fill: #000000;
-}
-
-.socialContainer:hover .socialSvg {
-  animation: slide-in-top 0.3s both;
-}
-
-@keyframes slide-in-top {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
-.circle {
-  height: 8px;
-  width: 8px;
-  border-radius: 24px;
-  background-color: #BB86FC;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 99999999;
-}
-
-.card {
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px 25px;
-  gap: 20px;
-}
-
-.container{
+.container {
   max-width: 1280px;
   margin: auto;
 }
 
-.flex{
- align-items: center;
- justify-content: space-evenly;
+.flex {
+  align-items: center;
+  justify-content: space-evenly;
   display: flex;
 }
 
+/* Header */
 header {
   justify-content: flex-start;
   align-items: center;
@@ -191,21 +63,18 @@ header {
   transition: .5s;
   z-index: 1000;
   display: flex;
-
 }
-header .mobile-menu{
+
+header.rolagem {
+  background-color: #f6f6f6;
+  padding: 1px 4%;
+}
+
+header .mobile-menu {
   position: absolute;
   right: 0;
   margin-right: 50px;
   z-index: 99999;
-
-}
-
-header.rolagem{
-
-  background-color: #f6f6f6 ;
-  padding: 1px 4%;
-
 }
 
 .logo {
@@ -222,21 +91,13 @@ nav ul {
   margin: 0;
   padding: 0;
   gap: 15px;
-}
-
-
-
-nav ul {
   list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li {
   margin-left: 20px;
-  transition: transform 0.3s ease, margin 0.3s ease;
   margin-right: 20px;
+  transition: transform 0.3s ease, margin 0.3s ease;
 }
 
 nav ul li a {
@@ -256,7 +117,6 @@ nav ul li:hover {
 
 nav ul li a:hover {
   color: #00bdf7;
-
 }
 
 .nav-list {
@@ -301,7 +161,6 @@ nav ul li a:hover {
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 10000;
-    
   }
   .nav-list li {
     margin-left: 0;
@@ -339,7 +198,147 @@ nav ul li a:hover {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+/* Ícones sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+.socialContainer:hover {
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.containerOne:hover {
+  background-color: #d62976;
+}
+
+.containerTwo:hover {
+  background-color: #000000;
+}
+
+.containerThree:hover {
+  background-color: #0072b1;
+}
+
+.containerFour:hover {
+  background-color: #333333;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: #000000;
+}
+
+.socialContainer:hover .socialSvg path {
+  fill: #ffffff;
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Estilo geral */
+.circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 24px;
+  background-color: #BB86FC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 25px;
+  gap: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  transform: scale(1.5);
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.intro h1, .intro h2, .intro p {
+  text-align: left;
+}
+
+.intro h1 {
+  letter-spacing: 10px;
+  font-size: 85px;
+  margin-bottom: -40px;
+  color: #000000;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.intro h2 {
+  letter-spacing: 4px;
+  font-size: 120px;
+  margin-bottom: 5px;
+  color: #000000;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.intro p {
+  margin-top: 10px;
+  font-size: 27px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #313131;
+}
+
+/* Scrollbar personalizada */
 .scrollbar {
   position: fixed;
   top: 50%;
@@ -366,60 +365,3 @@ nav ul li a:hover {
   border: 2px solid #00bdf7;
   background-color: #00bdf7;
 }
-
-.intro h1 {
-  letter-spacing: 10px;
-  font-size: 85px;
-  margin-bottom: -40px;
-  color: #000000;
-  font-family: 'Audiowide', sans-serif;
-
-}
-
-.intro h2 {
-  letter-spacing: 4px;
-  font-size: 120px;
-  margin-bottom: 5px;
-  color: #000000;
-  font-family: 'Audiowide', sans-serif;
-}
-
-.intro p {
-  margin-top: 10px;
-  font-size: 27px;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  color: #313131;
-
-}
-
-.intro {
-  position: absolute;
-
-  top: 50%;
-  
-  left: 50%;
-  
-  transform: translate(-50%, -50%);
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.intro p,
-.intro h1,
-.intro h2 {
-  text-align: left;
-}
-
-.card {
-  position: absolute;
-  bottom: 10;
-  right: 0;
-  transform: scale(1.5);
-}
-
-
