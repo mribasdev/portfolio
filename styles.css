@@ -325,7 +325,7 @@ nav ul li a:hover {
   text-align: left; /* Alinha o texto à esquerda */
 }
 
-.social-icons {
+.card {
   position: absolute;
   bottom: 0; /* Alinha a div ao fundo */
   right: 0; /* Alinha a div à direita */
