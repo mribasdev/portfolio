@@ -190,11 +190,13 @@ header {
   width: 100%;
   transition: .5s;
   z-index: 1000;
+  display: flex;
 
 }
 header .mobile-menu{
   position: absolute;
   right: 0;
+  
 }
 
 header.rolagem{
