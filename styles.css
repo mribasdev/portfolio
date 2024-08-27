@@ -275,6 +275,7 @@ nav ul li a:hover {
   margin: 8px;
   transition: 0.3s;
   right: 0;
+  position: absolute;
 }
 
 @media (max-width: 999px) {
