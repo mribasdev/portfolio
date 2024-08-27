@@ -420,7 +420,7 @@ nav ul li a:hover {
   bottom: 10;
   right: 0;
   transform: scale(1.5);
-  
+  margin-right: 10px;
 }
 
 
