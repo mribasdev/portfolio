@@ -328,5 +328,6 @@ nav ul li a:hover {
 .social-icons {
   position: absolute;
   bottom: 0;
-  right: 0; /* Alinha a div à direita no topo */
+  right: 0;
+  margin-top: 10px;
 }
