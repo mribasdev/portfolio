@@ -418,8 +418,9 @@ nav ul li a:hover {
 .card {
   position: absolute;
   bottom: 10;
-  right: 0;
+  right: 10;
   transform: scale(1.5);
+
 }
 
 
