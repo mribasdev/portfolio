@@ -197,6 +197,7 @@ header .mobile-menu{
   position: absolute;
   right: 0;
   margin-right: 50px;
+  z-index: 99999;
 
 }
 
@@ -240,7 +241,6 @@ nav ul li {
 
 nav ul li a {
   color: #000000;
-  /* Roxo Neon */
   text-decoration: none;
   font-size: 12px;
   display: block;
