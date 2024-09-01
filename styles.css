@@ -295,7 +295,7 @@ nav ul li a:hover {
   padding: 2px 25px;
   gap: 20px;
   position: absolute;
-  bottom: 0px;
+  bottom: 100;
   right: 0;
   transform: scale(1.5);
 }
