@@ -151,6 +151,7 @@ nav ul li a:hover {
   .nav-list {
     position: absolute;
     top: 8vh;
+    right: 0;
     width: 20vw;
     height: 92vh;
     background: #f6f6f6;
