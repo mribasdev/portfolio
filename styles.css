@@ -296,7 +296,7 @@ nav ul li a:hover {
   gap: 20px;
   position: absolute;
   bottom: 100;
-  right: -10;
+  right: 0;
   transform: scale(1.5);
 }
 
