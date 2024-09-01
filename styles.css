@@ -367,7 +367,6 @@ nav ul li a:hover {
 }
 
 .animacao-mao {
-  font-size: 50px;
   display: inline-block;
   animation: animacao-hand 2s infinite;
   transform-origin: 70% 70%;
