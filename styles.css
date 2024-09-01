@@ -370,6 +370,7 @@ nav ul li a:hover {
   display: inline-block;
   animation: animacao-hand 2s infinite;
   transform-origin: 70% 70%;
+  transition: all 0.3s ease-in-out;
 }
 
 @keyframes animacao-hand {
@@ -381,4 +382,12 @@ nav ul li a:hover {
   50% { transform: rotate(10deg); }
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+.animacao-mao:hover {
+  animation: none;
+}
+
+.animacao-mao:hover::after {
+  content: "👍";
 }
