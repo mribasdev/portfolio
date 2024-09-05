@@ -1,4 +1,4 @@
-/* Reset e padrão global */
+
 * {
   cursor: none;
   margin: 0;
@@ -13,20 +13,18 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Scrollbars */
 ::-webkit-scrollbar {
-  display: none; /* Chrome, Edge, Safari */
+  display: none;
 }
 
 html {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
 body {
-  -ms-overflow-style: none; /* Internet Explorer */
+  -ms-overflow-style: none;
 }
 
-/* Layout e estrutura */
 main {
   display: flex;
   align-items: center;
@@ -52,7 +50,6 @@ section {
   display: flex;
 }
 
-/* Header */
 header {
   justify-content: flex-start;
   align-items: center;
@@ -196,7 +193,6 @@ nav ul li a:hover {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-/* Ícones sociais */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -271,7 +267,6 @@ nav ul li a:hover {
   }
 }
 
-/* Estilo geral */
 .circle {
   height: 8px;
   width: 8px;
@@ -336,7 +331,6 @@ nav ul li a:hover {
   color: #313131;
 }
 
-/* Scrollbar personalizada */
 .scrollbar {
   position: fixed;
   top: 50%;
