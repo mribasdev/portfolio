@@ -148,11 +148,11 @@ nav ul li a:hover {
     top: 8vh;
     right: 0;
     width: 40vw;
-    height: 90vh;
+    height: 92vh;
     background: #f6f6f6;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 10000;
