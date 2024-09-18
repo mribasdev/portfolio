@@ -362,7 +362,7 @@ nav ul li a:hover {
   display: inline-block;
   animation: animacao-hand 2s infinite;
   transform-origin: 70% 70%;
-  font-size: 3px;
+  font-size: 30px;
 }
 
 @keyframes animacao-hand {
