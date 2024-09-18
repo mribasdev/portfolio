@@ -1,3 +1,12 @@
+* {
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
 .circle {
   height: 8px;
   width: 8px;
