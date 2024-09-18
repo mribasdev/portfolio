@@ -153,8 +153,8 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: auto; 
-    margin-right: auto;
+    margin-left: 0px; 
+    margin-right: 0px;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 10000;
