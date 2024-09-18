@@ -19,6 +19,7 @@
   z-index: 99999999;
 }
 
+/* From Uiverse.io by vinodjangid07 */ 
 .loader {
   width: fit-content;
   height: fit-content;
@@ -27,7 +28,7 @@
   justify-content: center;
 }
 
-.runnerWrapper {
+.truckWrapper {
   width: 200px;
   height: 100px;
   display: flex;
@@ -37,15 +38,15 @@
   justify-content: flex-end;
   overflow-x: hidden;
 }
-
-.runnerBody {
-  width: 64px;
+/* truck upper body */
+.truckBody {
+  width: 130px;
   height: fit-content;
   margin-bottom: 6px;
-  animation: runMotion 1s linear infinite;
+  animation: motion 1s linear infinite;
 }
-
-@keyframes runMotion {
+/* truck suspension animation*/
+@keyframes motion {
   0% {
     transform: translateY(0px);
   }
@@ -56,22 +57,19 @@
     transform: translateY(0px);
   }
 }
-
-.coffeeCup {
-  width: 64px;
+/* truck's tires */
+.truckTires {
+  width: 130px;
   height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 15px;
   position: absolute;
-  right: -20px;
-  animation: coffeeRun 1.4s linear infinite;
+  bottom: 0;
 }
-
-@keyframes coffeeRun {
-  0% {
-    transform: translateX(0px);
-  }
-  100% {
-    transform: translateX(-350px);
-  }
+.truckTires svg {
+  width: 24px;
 }
 
 .road {
@@ -83,7 +81,6 @@
   align-self: flex-end;
   border-radius: 3px;
 }
-
 .road::before {
   content: "";
   position: absolute;
@@ -94,6 +91,25 @@
   border-radius: 3px;
   animation: roadAnimation 1.4s linear infinite;
   border-left: 10px solid white;
+}
+.road::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: #282828;
+  right: -65%;
+  border-radius: 3px;
+  animation: roadAnimation 1.4s linear infinite;
+  border-left: 4px solid white;
+}
+
+.lampPost {
+  position: absolute;
+  bottom: 0;
+  right: -90%;
+  height: 90px;
+  animation: roadAnimation 1.4s linear infinite;
 }
 
 @keyframes roadAnimation {
