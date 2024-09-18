@@ -147,7 +147,7 @@ nav ul li a:hover {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 100vw; /* Aumenta a largura para ocupar a tela toda */
+    width: 50vw; /* Aumenta a largura para ocupar a tela toda */
     height: 92vh;
     background: #f6f6f6;
     flex-direction: column;
